@@ -6,12 +6,13 @@
   --text: #f6f3ed;
   --muted: #aaa6a0;
   --line: rgba(255, 255, 255, 0.12);
-  --ole-red: #ce1126;
-  --ole-red-dark: #8a0b18;
-  --ole-red-rgb: 206, 17, 38;
-  --ole-navy: #14213d;
-  --ole-navy-dark: #071225;
-  --ole-navy-rgb: 20, 33, 61;
+  --ole-red: #0f3d33;
+  --ole-red-dark: #061b16;
+  --ole-red-rgb: 15, 61, 51;
+  --ole-navy: #111513;
+  --ole-navy-dark: #050706;
+  --ole-navy-rgb: 17, 21, 19;
+  --silver-rgb: 207, 215, 211;
   --shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
 }
 
@@ -511,7 +512,7 @@ p {
 
 .metric-card.likes,
 .metric-card.earnings {
-  background: linear-gradient(145deg, rgba(241, 209, 138, 0.12), rgba(255, 255, 255, 0.035));
+  background: linear-gradient(145deg, rgba(var(--silver-rgb), 0.13), rgba(255, 255, 255, 0.035));
 }
 
 .partner-strip {
@@ -534,7 +535,7 @@ p {
 }
 
 .partner-strip article:nth-child(1) {
-  background: radial-gradient(circle at 60% 30%, #8d0611, #190306 70%);
+  background: radial-gradient(circle at 60% 30%, #153d34, #020403 70%);
 }
 
 .partner-strip article:nth-child(2),
